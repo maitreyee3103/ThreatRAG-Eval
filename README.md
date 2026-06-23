@@ -1,7 +1,6 @@
 # ThreatRAG-Eval
 ### A Retrieval-Augmented Generation Pipeline with Evaluation Harness for Cyber Threat Intelligence
 
-> *"Not just a RAG pipeline — a measured one."*
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![Claude API](https://img.shields.io/badge/LLM-Claude%20(Anthropic)-blueviolet)](https://www.anthropic.com/)
@@ -182,11 +181,6 @@ streamlit run dashboard/app.py
 | Dashboard | Streamlit |
 | Data Sources | CISA KEV, NIST NVD |
 
----
-
-## License
-
-MIT — see [LICENSE](LICENSE)
 
 ---
 
