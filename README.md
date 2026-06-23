@@ -14,15 +14,15 @@
 
 ThreatRAG-Eval ingests real-world cybersecurity data from **CISA's Known Exploited Vulnerabilities (KEV)** catalog and the **NIST National Vulnerability Database (NVD)**, builds a RAG pipeline on top of it using Claude as the generator, and then rigorously evaluates three different chunking strategies using the `ragas` framework.
 
-The point isn't just to answer security questions — it's to **measure which approach answers them best**, and to show exactly how and why.
+The point is to **measure which approach answers them best**, and to show exactly how and why.
 
 ---
 
 ## Why This Exists
 
-Most RAG tutorials stop at "it works." This project asks the harder question: *how well does it work, and does my chunking strategy matter?*
+Most RAG tutorials stop at "it works." This project thinks about: *how well does it work, and does my chunking strategy matter?*
 
-This was built as part of a portfolio project focused on AI for security and threat intelligence — a domain where retrieval accuracy isn't just a metric, it's the difference between a useful tool and a misleading one.
+This was built as part of my portfolio project focused on AI for security and threat intelligence.
 
 ---
 
@@ -73,7 +73,7 @@ threat-rag-eval/
 ├── dashboard/
 │   └── app.py                # Streamlit results dashboard
 ├── logs/
-├── .env                      # API keys (not committed)
+├── .env                      
 ├── requirements.txt
 └── README.md
 ```
