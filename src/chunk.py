@@ -3,8 +3,8 @@
 from typing import Any
 
 
-CHUNK_SIZE = 600   # characters per chunk — large enough to fit most CVE records whole
-CHUNK_OVERLAP = 100 # overlap to preserve context across boundaries
+CHUNK_SIZE = 600   
+CHUNK_OVERLAP = 100 
 
 
 def record_to_text(vuln: dict[str, Any]) -> str:
